@@ -1,0 +1,849 @@
+{
+    "config": [
+        {
+            "content": [
+                {
+                    "enabled": true,
+                    "max_sleep_limit": 32400000,
+                    "min_sleep_limit": 18000000,
+                    "wifi_restrict": false
+                }
+            ],
+            "projectname": "power_sleeptight_config"
+        },
+        {
+            "content": [
+                {
+                    "battery_health_charge_cdp": 9000000,
+                    "battery_restrict_list": "com.nothing.test,com.nothing.test2,com.nothing.test3,com.apkpure.aegon",
+                    "power_tracker": true,
+                    "power_tracker_battery_outlier_duration_ms": 3600000,
+                    "power_tracker_battery_outlier_level": 5,
+                    "power_tracker_thermal_cooldown_ms": 1500000,
+                    "power_tracker_thermal_cpu_interval_ms": 60000,
+                    "power_tracker_thermal_cpu_update_times": 10,
+                    "power_tracker_thermal_threshold": 46,
+                    "thermal_engine": [
+                        {
+                            "com.miHoYo.GenshinImpact": "super",
+                            "com.miHoYo.ys.bilibili": "super",
+                            "com.miHoYo.Yuanshen": "super",
+                            "com.pubg.imobile": "super",
+                            "com.pubg.krmobile": "super",
+                            "com.rekoo.pubgm": "super",
+                            "com.tencent.ig": "super",
+                            "com.tencent.tmgp.pubgmhd": "super"
+                        }
+                    ],
+                    "wakelock_blacklist": [
+                        {
+                            "name": "com.nothing.wakelockblacklist",
+                            "tags": [
+                                "tag1",
+                                "tag2",
+                                "tag3"
+                            ]
+                        },
+                        {
+                            "name": "com.nothing.wakelockblacklist2",
+                            "tags": [
+                                "tag1",
+                                "tag2"
+                            ]
+                        }
+                    ],
+                    "wls_charge_param": "40 43 36 39 1100 600 1600"
+                },
+                {
+                    "activity_manager": {
+                        "use_compaction": true
+                    },
+                    "nt_game_mode": {
+                        "tp_sample_rate": "com.gamedevltd.modernstrike:com.tencent.ig:com.rekoo.pubgm:com.pubg.imobile:com.dts.freefiremax:com.roblox.client:com.activision.callofduty.shooter:com.pixonic.wwr:com.supercell.brawlstars"
+                    }
+                }
+            ],
+            "projectname": "power_management"
+        },
+        {
+            "content": [
+                {
+                    "high_temp_warning": 53
+                }
+            ],
+            "projectname": "system_ui"
+        },
+        {
+            "content": [
+                {
+                    "game_brightness_limit_enable": "true",
+                    "game_brightness_limit_temp_down": "42000",
+                    "game_brightness_limit_temp_up": "46000",
+                    "game_brightness_limit_val": "0.9"
+                }
+            ],
+            "projectname": "game_brightness_limit"
+        },
+        {
+            "content": [
+                {
+                    "enable_feedback1": "false",
+                    "upload_config": {
+                        "data_app_enabled": "false"
+                    }
+                }
+            ],
+            "projectname": "logkit"
+        },
+        {
+            "content": [
+                {
+                    "carrier_update_url": "https://firebasestorage.googleapis.com/v0/b/nothingdevice-dev.appspot.com/o/46001_test_carrier_config.xml?alt=media&token=da8fe87c-76e1-40c8-b874-ec5f006d2ef5&_gl=1*1b143eb*_ga*MTc2MzM1OTc3OC4xNjg0NzM3MTQ0*_ga_CW55HF8NVT*MTY4NjAyMjAxNy4xNC4xLjE2ODYwMjI0NTYuMC4wLjA.",
+                    "carrier_update_version": "20230606"
+                }
+            ],
+            "projectname": "carrierconfig"
+        },
+        {
+            "content": [
+                {
+                    "apn_update_url": "https://firebasestorage.googleapis.com/v0/b/nothingdevice-dev.appspot.com/o/46001_test_apn.xml?alt=media&token=fae280c2-9685-4c41-adff-1d7388b9f29d&_gl=1*19ymtnm*_ga*MTc2MzM1OTc3OC4xNjg0NzM3MTQ0*_ga_CW55HF8NVT*MTY4NjAyMjAxNy4xNC4xLjE2ODYwMjI0NjguMC4wLjA.",
+                    "block_benchmark_app": "true",
+                    "carrier_update_url": "https://firebasestorage.googleapis.com/v0/b/nothingdevice-dev.appspot.com/o/Test_online_carrier_config.xml?alt=media&token=7b823ddc-c09f-4a0f-8d6e-2d728ac5269d",
+                    "carrier_update_version": "20240515",
+                    "eccdata_file_hash": "5807ae33dd9e3238ba6ba278a1c2de2d4b8e8e75d51354ba3efd2c82c46ebb9228cf7bd29e3481520f2ea027390d4d6b3c4befc53a255c1bf992be4b3f8eb890",
+                    "eccdata_update_url": "https://firebasestorage.googleapis.com/v0/b/nothingdevice-dev.appspot.com/o/eccdata_pl?alt=media&token=f5fd4f53-7366-4e77-b733-446f6a953356",
+                    "eccdata_update_version": "20241014",
+                    "eccdata_version": "3",
+                    "efs_update_url": "https://firebasestorage.googleapis.com/v0/b/nothingdevice-dev.appspot.com/o/46000_46001_46007_3gpp_config_xml.pb?alt=media&token=cfb4bdc6-b6f0-4c76-9b8f-036b76c27022&_gl=1*150g5ei*_ga*MjQ0MTgwMzI0LjE2ODA1OTMyMTg.*_ga_CW55HF8NVT*MTY5NjkxMDE4Ni4zMC4xLjE2OTY5MTE3MDAuNDIuMC4w",
+                    "efs_update_version": "20240515",
+                    "online_apn_update_url": "https://firebasestorage.googleapis.com/v0/b/nothingdevice-dev.appspot.com/o/test-apns-conf.xml?alt=media&token=43791fce-5629-4517-899e-95ed3cf3dc1c",
+                    "online_apn_update_version": "20240311"
+                }
+            ],
+            "projectname": "telephony"
+        },
+        {
+            "content": [
+                {
+                    "allow_defrag_period": "8",
+                    "charging_required": "false",
+                    "defrag_once_size_scale": "1",
+                    "defrag_target_score": "40",
+                    "dirty_reclaim_rate": "0.5",
+                    "enable_smartGC2": "1",
+                    "enable_smartGC3": "1",
+                    "lifetime_threshold": "70",
+                    "low_battery_level": "25",
+                    "mglru_enable": "false",
+                    "mglru_min_ttl_ms": "0",
+                    "min_gc_sleeptime": "500",
+                    "min_segments_threshold": "1024",
+                    "segment_reclaim_weight": "3.0",
+                    "smart_idle_maint_enabled": "true",
+                    "smart_idle_maint_period": "15",
+                    "target_dirty_ratio": "50",
+                    "zram_first_wb_delay_mins": "180",
+                    "zram_force_writeback": "true",
+                    "zram_fs_dirtyRatio_threshold": "70",
+                    "zram_mark_idle_delay_mins": "20",
+                    "zram_periodic_wb_delay_mins": "1440",
+                    "zram_retry_delay_mins": "60",
+                    "zram_ufs_lifetime_threshold": "70",
+                    "zramwriteback_enable": "true",
+                    "zramwriteback_size": "2147483648"
+                }
+            ],
+            "projectname": "storage_management"
+        },
+        {
+            "content": [
+                {
+                    "nfc_readermode_blacklist": [
+                        "my.com.tngdigital.ewallet",
+                        "com.nothing.GNEngineertest11"
+                    ],
+                    "nfc_tracker_enabled": "true"
+                }
+            ],
+            "projectname": "nfc_management"
+        },
+        {
+            "content": [
+                {
+                    "location_tracker_enabled": "true"
+                }
+            ],
+            "projectname": "location_management"
+        },
+        {
+            "content": [
+                {
+                    "trace_enable_special": true
+                }
+            ],
+            "projectname": "trace_manager"
+        },
+        {
+            "content": [
+                {
+                    "boost_camera": true,
+                    "boost_camera_compaction": false,
+                    "boost_camera_duration": 10000,
+                    "boost_camera_kill_count_8G": 25,
+                    "boost_camera_kill_count_default": 25,
+                    "cache_percent": 7,
+                    "check_compaction": 0,
+                    "critical_psi": 400,
+                    "direct_reclaim_kill": 1,
+                    "extra_free_factor": 6,
+                    "load_process_memory": false,
+                    "opt_3rd_app_adj": true,
+                    "opt_fork_high_used": true,
+                    "opt_high_used_adj": true,
+                    "pinner_max_assistant_pin_size": 31457280,
+                    "release_memory_kill_count_12G": 5,
+                    "release_memory_kill_count_8G": 5,
+                    "release_memory_screen_on": true,
+                    "release_memory_screen_on_duration": 3600000,
+                    "tune_extra_free": true,
+                    "wm_boost_factor": 3
+                }
+            ],
+            "projectname": "nothing_memory_manager"
+        },
+        {
+            "content": [
+                {
+                    "wifi_assistant_state": 1
+                }
+            ],
+            "projectname": "wifi_assistant"
+        },
+        {
+            "content": [
+                {
+                    "cold_start_time": 600,
+                    "enable_data_track": true,
+                    "warm_start_time": 200
+                }
+            ],
+            "projectname": "nothing_performance_manager"
+        },
+        {
+            "content": [
+                {
+                    "badForegroundMono": {
+                        "blockedList": [
+                            "com.google.android.apps.translate",
+                            "com.google.android.apps.kids.familylink",
+                            "com.google.android.apps.dynamite",
+                            "com.google.android.apps.podcasts",
+                            "com.king.candycrushsaga",
+                            "com.cuvora.carinfo",
+                            "com.dts.freefiremax",
+                            "com.supercell.clashofclans",
+                            "com.miHoYo.GenshinImpact",
+                            "com.scopely.monopolygo",
+                            "com.citymapper.app.release",
+                            "com.cv.docscanner",
+                            "com.fsn.nds",
+                            "com.kompasproductions.summertimesaga",
+                            "com.supercell.clashroyale",
+                            "com.rovio.abcasual",
+                            "com.duolingo",
+                            "com.HoYoverse.hkrpgoversea",
+                            "com.daimler.ris.mercedesme.ece.android",
+                            "com.evilinsult",
+                            "com.moonactive.coinmaster",
+                            "jp.co.canon.ic.cameraconnect",
+                            "com.novanews.android.localnews.en",
+                            "com.dunkinbrands.otgo",
+                            "com.mcdonalds.app",
+                            "com.roku.remote",
+                            "com.galaxylab.ss.lite",
+                            "com.brighthouse.mybhn",
+                            "com.indeed.android.jobsearch",
+                            "tv.pluto.android",
+                            "com.carxtech.sr",
+                            "com.topgamesinc.evony",
+                            "com.king.petrescuesaga",
+                            "com.king.farmheroessaga",
+                            "com.king.candycrushsodasaga",
+                            "com.jellybtn.boardkings",
+                            "com.tensquaregames.letsfish2",
+                            "com.plarium.vikings",
+                            "com.snowprintstudios.tacticus",
+                            "com.crowdstar.covetHome",
+                            "com.ea.game.starwarscapital_row",
+                            "com.zynga.pottermatch",
+                            "com.tinyco.potter",
+                            "com.smallgiantgames.empires",
+                            "com.playrix.homescapes",
+                            "com.ludia.jw2",
+                            "com.starplay.spider.fighter3d",
+                            "com.ea.gp.fifamobile",
+                            "com.paradyme.citysmash2",
+                            "com.tinybytes.massivewarfare2",
+                            "com.prequel.app",
+                            "free.pastel.icons.ddt",
+                            "org.geometerplus.zlibrary.ui.android",
+                            "com.gamovation.sudoku",
+                            "mobi.byss.gun3",
+                            "jp.or.nhk.nhkworld.tv",
+                            "com.underwood.route_optimiser",
+                            "com.pronetis.ironball2",
+                            "com.budgestudios.googleplay.BudgeRacing",
+                            "com.firsttouchgames.dls7",
+                            "games.onebutton.golfbattle",
+                            "ru.iprado.spot",
+                            "com.firsttouchgames.mpx",
+                            "com.nordcurrent.canteenhd",
+                            "com.playhome.plus",
+                            "freeplay.crowdrun.com",
+                            "com.gamebasics.osm",
+                            "com.pd.vehiclemasters",
+                            "com.garmin.android.apps.connectmobile",
+                            "com.bimiboo.playandlearn",
+                            "ru.iiec.jvdroid",
+                            "com.king.farmheroessupersaga",
+                            "com.king.pyramidsolitairesaga",
+                            "com.king.candycrush4",
+                            "com.king.candycrushjellysaga",
+                            "com.king.blossomblast",
+                            "com.king.bubblewitch3",
+                            "com.midasplayer.apps.bubblewitchsaga2",
+                            "com.king.diamonddiariessaga",
+                            "jp.konami.pesam",
+                            "com.fingersoft.hcr2"
+                        ]
+                    },
+                    "ctsConfig": {
+                        "isFunctionOpen": 1
+                    },
+                    "floatingIcon": {
+                        "blockedList": [
+                            "com.qiyi.video"
+                        ]
+                    },
+                    "smartCategoryConfig": {
+                        "categoryPeriodicalTime": 8,
+                        "categoryVersion": 1
+                    },
+                    "version": 1000080,
+                    "windowMode": {
+                        "blockedList": [
+                            "com.nothing.camera",
+                            "com.nothing.launcher",
+                            "com.google.android.apps.wallpaper",
+                            "com.google.android.googlequicksearchbox",
+                            "com.nothing.soundrecorder",
+                            "com.garena.game.codm",
+                            "com.nothing.glyph.composer",
+                            "com.nothing.agreement",
+                            "com.nothing.wallpaper",
+                            "com.android.systemui",
+                            "com.nothing.hearthstone"
+                        ]
+                    }
+                }
+            ],
+            "projectname": "launcher_config"
+        },
+        {
+            "content": [
+                {
+                    "bg_killer": true
+                }
+            ],
+            "projectname": "process_manager"
+        },
+        {
+            "content": [
+                {
+                    "blocked_list": [
+                        "com.catchy.tools.myphoneinfo.rp",
+                        "com.liuzh.deviceinfo",
+                        "com.vudinhhau.gpuinfo",
+                        "com.glgjing.stark",
+                        "xcom.saplin.xOPS",
+                        "com.azeemtelecom.android.cpumax",
+                        "com.thjh.screeninfo",
+                        "com.royalapps.cpuhardwareinfo",
+                        "org.ai.throttling",
+                        "com.basemark.gpuscore.expedition",
+                        "com.drhowdydoo.diskinfo",
+                        "com.evo.inware",
+                        "com.georgie.pi",
+                        "de.android.telnet",
+                        "com.androidfung.drminfo",
+                        "com.ytheekshana.deviceinfo",
+                        "com.texts.batterybenchmark",
+                        "com.glbenchmark.glbenchmark27",
+                        "com.fms.speccy",
+                        "com.primatelabs.geekbench6",
+                        "com.abs.cpu_z_advance",
+                        "com.pvvcompany.uptest",
+                        "com.james.SmartUninstaller",
+                        "hibernate.v2.testyourandroid",
+                        "com.realvnc.viewer.android",
+                        "com.dede.nativetools",
+                        "com.basemark.basemarkgpu.free",
+                        "com.sysinfodroid",
+                        "com.passmark.pt_mobile",
+                        "com.cpuid.hwmonitorpro",
+                        "org.benchmark.demo",
+                        "com.ijsoft.gpul",
+                        "com.vartechapps.benchmark3dcafe",
+                        "com.trigger_soft.monitor",
+                        "com.ijsoft.cpul",
+                        "flar2.devcheck",
+                        "com.yihengquan.cpuspeed",
+                        "com.itemstudio.castro",
+                        "com.PlatinumBladeGames.UnrealSystemBenchmark",
+                        "com.idea.PhoneDoctorPlus",
+                        "com.wt.fpstest",
+                        "com.ijsoft.socl",
+                        "com.futuremark.pcmark.android.benchmark",
+                        "com.robertlevonyan.testy",
+                        "com.oz.diskspeed",
+                        "com.urbandroid.dontkillmyapp",
+                        "com.futuremark.dmandroid.application",
+                        "com.testm.app",
+                        "com.finalwire.aida64",
+                        "com.smart.device.info.deviceinfo.systemstatus",
+                        "com.nature.seascape",
+                        "com.Saplin.CPDT",
+                        "com.parizene.netmonitor",
+                        "com.HindDev.FinalBenchmark",
+                        "com.kgurgul.cpuinfo",
+                        "com.antutu.ABenchMark",
+                        "com.cpuid.cpu_z",
+                        "com.abp.sysmonitor.cpu_z_advance.cpufloat.cpumeter"
+                    ]
+                }
+            ],
+            "projectname": "install_package_helper_ex"
+        },
+        {
+            "content": [
+                {
+                    "white_list": [
+                        "com.google.android.dialer",
+                        "com.whatsapp",
+                        "com.facebook.orca",
+                        "com.tencent.mm",
+                        "com.snapchat.android",
+                        "com.viber.voip",
+                        "jp.naver.line.android",
+                        "com.facebook.katana"
+                    ]
+                }
+            ],
+            "projectname": "gamemode_calling_notification"
+        },
+        {
+            "content": [
+                {
+                    "composer_available": true,
+                    "glyph_progress": {
+                        "food_delivery_packages": [
+                            "com.application.zomato"
+                        ],
+                        "other_packages": [
+                            "com.google.android.calendar"
+                        ],
+                        "package_labels": {
+                            "com.application.zomato": "Zomato",
+                            "com.glovo": "Glovo",
+                            "com.ubercab": "Uber"
+                        },
+                        "ride_hailing_packages": [
+                            "com.ubercab"
+                        ]
+                    },
+                    "ndotJaContent": {
+                        "ndot_ja_switch_summary": "\n「有効にする」ボタンをタップすると、システムで「Ndot日本語」フォントが有効になり、システム設定、ランチャーウィジェット及びその他のページに適用されます。",
+                        "ndot_ja_thanks_list_footer": "",
+                        "ndot_ja_thanks_list_head": "",
+                        "ndot_ja_thanks_list_names": ""
+                    },
+                    "SettingsRecommendationContent": [
+                        {
+                            "destinationFragment": "com.nothing.settings.game.GameSettings",
+                            "fragmentTag": "com.nothing.settings.experimental.FeaturesListFragment",
+                            "title": "nt_game_mode_title"
+                        },
+                        {
+                            "destinationFragment": "com.nothing.settings.display.statusbar.StatusBarDisplaySettings",
+                            "fragmentTag": "com.android.settings.notification.ConfigureNotificationSettings",
+                            "title": "nt_display_status_bar_display"
+                        },
+                        {
+                            "destinationFragment": "com.nothing.settings.glyphs.GlyphsMainSettingsFragment",
+                            "featureValue": true,
+                            "fragmentTag": "com.android.settings.notification.ConfigureNotificationSettings",
+                            "NTFeature": "NTF_GE",
+                            "title": "help_url_glyphs_dashboard"
+                        },
+                        {
+                            "destinationFragment": "com.nothing.settings.lockscreen.LockscreenAndAodSettings",
+                            "fragmentTag": "com.android.settings.DisplaySettings",
+                            "title": "lockscreen_and_aod_settings_title"
+                        },
+                        {
+                            "featureValue": true,
+                            "fragmentTag": "com.android.settings.DisplaySettings",
+                            "linkAction": {
+                                "action": "com.android.settings.ACTION_LOCKSCREEN_AND_AOD_SETTINGS",
+                                "highlightKey": "ambient_display_always_on",
+                                "packageName": "com.android.settings"
+                            },
+                            "NTFeature": "NTF_GENERAL_AOD",
+                            "title": "always_on_display_category_title"
+                        },
+                        {
+                            "fragmentTag": "com.nothing.settings.lockscreen.LockscreenAndAodSettings",
+                            "linkAction": {
+                                "className": "com.android.customization.picker.CustomizationPickerActivity",
+                                "packageName": "com.nothing.wallpaper"
+                            },
+                            "title": "wallpaper_settings_title"
+                        },
+                        {
+                            "destinationFragment": "com.nothing.settings.apps.dual.DualAppsMainFragment",
+                            "fragmentTag": "com.android.settings.system.SystemDashboardFragment",
+                            "title": "app_dual_dashboard_title"
+                        },
+                        {
+                            "fragmentTag": "com.android.settings.system.SystemDashboardFragment",
+                            "linkAction": {
+                                "action": "com.android.settings.applications.ACTION_APPDASHBOARD",
+                                "highlightKey": "app_locker",
+                                "packageName": "com.android.settings"
+                            },
+                            "title": "app_locker_title"
+                        },
+                        {
+                            "fragmentTag": "com.android.settings.system.SystemDashboardFragment",
+                            "linkAction": {
+                                "action": "com.android.settings.ACTION_LOCKSCREEN_AND_AOD_SETTINGS",
+                                "highlightKey": "quick_settings",
+                                "packageName": "com.android.settings"
+                            },
+                            "title": "lockscreen_quick_setting_title"
+                        },
+                        {
+                            "destinationFragment": "com.nothing.settings.apps.dual.DualAppsMainFragment",
+                            "fragmentTag": "com.nothing.settings.special.SpecialSettingsFragment",
+                            "title": "app_dual_dashboard_title"
+                        },
+                        {
+                            "fragmentTag": "com.nothing.settings.special.SpecialSettingsFragment",
+                            "linkAction": {
+                                "action": "com.android.settings.applications.ACTION_APPDASHBOARD",
+                                "highlightKey": "app_locker",
+                                "packageName": "com.android.settings"
+                            },
+                            "title": "app_locker_title"
+                        }
+                    ],
+                    "version": 100000008
+                }
+            ],
+            "projectname": "settings_configs"
+        },
+        {
+            "content": [
+                {
+                    "apikey": "c31c1c6987a44f4eaede3902fe469fbc",
+                    "pkg": "com.nothinglondon.glyphperformer",
+                    "scope": "2",
+                    "signature": "bb81a2b3b68c30433b9c889ef10d0ec8718246c8"
+                },
+                {
+                    "apikey": "e067aeda88e711eeb9d10242ac120002",
+                    "pkg": "com.nothinglondon.audiovisualizer",
+                    "scope": "2",
+                    "signature": "bb81a2b3b68c30433b9c889ef10d0ec8718246c8"
+                },
+                {
+                    "apikey": "ef5d99fe88e711eeb9d10242ac120002",
+                    "pkg": "com.nothinglondon.glyphpreview",
+                    "scope": "2",
+                    "signature": "bb81a2b3b68c30433b9c889ef10d0ec8718246c8"
+                },
+                {
+                    "apikey": "d32b1d224bd111eebe560242ac120002",
+                    "pkg": "com.nothinglondon.audioreactiveglyphs",
+                    "scope": "2",
+                    "signature": "bb81a2b3b68c30433b9c889ef10d0ec8718246c8"
+                },
+                {
+                    "apikey": "65e44a48d38943f8ba729d8ca4144fc8",
+                    "pkg": "com.nothing.glyphtest",
+                    "scope": "2",
+                    "signature": "83452230FE5367FBC87532FA22D080F42EFE3A3A"
+                },
+                {
+                    "apikey": "65e44a58d38945f8ba729d8ca4144fc8",
+                    "pkg": "com.nothing.glyphtester",
+                    "scope": "2",
+                    "signature": "93A480B0301FA6BD51C0B6578DADE60301E6186D"
+                },
+                {
+                    "apikey": "a89fd6a4ee4011eda05b0242ac120003",
+                    "pkg": "com.nothing.livedemo",
+                    "scope": "2",
+                    "signature": "4EE37C73D7DC585641531521F1494596AF7D678E"
+                },
+                {
+                    "apikey": "c86b79748d924e69af64aeef175a7727",
+                    "pkg": "com.nothing.ketchumtester",
+                    "scope": "2",
+                    "signature": "0ecc9f569a8ce0b7b1688fe6964b559fce072740"
+                },
+                {
+                    "apikey": "dc6ee394774046ffa78b7daf2af8a942",
+                    "pkg": "com.nothing.glyphnotification",
+                    "scope": "2",
+                    "signature": "95E1F157FE98518A9954494B98CE66E66F8729A8"
+                },
+                {
+                    "apikey": "be267fe3dab442869c84a5f77b5fd875",
+                    "pkg": "com.nothinglondon.glyphexploration",
+                    "scope": "2",
+                    "signature": "0ecc9f569a8ce0b7b1688fe6964b559fce072740"
+                }
+            ],
+            "projectname": "glyph_auth_app"
+        },
+        {
+            "content": [
+                {
+                    "geo_config": {
+                        "background_locate_internal": 180,
+                        "locate_ignore_distance": 800,
+                        "max_location_cache": 20
+                    },
+                    "network_exception_config": {
+                        "exception_msg": [
+                            "Connection reset",
+                            "No address associated with hostname",
+                            "failed to connect to /15.188.179.187 (port 80)",
+                            "Read timed out",
+                            "Software caused connection abort"
+                        ],
+                        "exception_type": [
+                            "java.net.SocketException",
+                            "java.net.UnknownHostException",
+                            "java.net.SocketTimeoutException"
+                        ]
+                    },
+                    "notify_config": {
+                        "request_min_interval": 60,
+                        "trigger_repeat_interval": 120
+                    },
+                    "time_config": {
+                        "invalid_time": 180
+                    },
+                    "version": 1000015
+                }
+            ],
+            "projectname": "weather_config"
+        },
+        {
+            "content": [
+                {
+                    "report_detail": "true",
+                    "silent_restart": "true",
+                    "silent_restart_criteria": [
+                        {
+                            "com.android.systemui": 2000000
+                        }
+                    ]
+                }
+            ],
+            "projectname": "memory_status_reporter"
+        },
+        {
+            "content": [
+                {
+                    "features": {
+                        "Pong_2.5.0": "0x0",
+                        "Spacewar_2.0.0": "0x0"
+                    },
+                    "livedemo": {
+                    }
+                }
+            ],
+            "projectname": "magic"
+        },
+        {
+            "content": [
+                {
+                    "date_config": {
+                        "calendar_event_white_list": [
+                            "test"
+                        ]
+                    },
+                    "media_player_config": {
+                        "app_black_list": [
+                            "com.nothing.soundrecorder",
+                            "com.google.android.youtube",
+                            "com.zhiliaoapp.musically",
+                            "com.smile.gifmaker",
+                            "com.ss.android.ugc.aweme",
+                            "com.qiyi.video",
+                            "com.youku.phone",
+                            "com.tencent.qqlivei18n",
+                            "tv.danmaku.bili",
+                            "com.amazon.avod.thirdpartyclient",
+                            "com.netflix.mediaclient",
+                            "com.vimeo.android.videoapp",
+                            "com.hulu.plus",
+                            "com.disney.disneyplus",
+                            "com.jio.media.ondemand",
+                            "in.startv.hotstar",
+                            "com.sharechat.moj",
+                            "com.mxtech.videoplayer.ad",
+                            "com.pub.video",
+                            "com.dream11sportsguru",
+                            "in.josh.app",
+                            "com.hunantv.imgo.activity",
+                            "com.ss.android.article.video",
+                            "com.cmvideo.migumovie",
+                            "com.cctv.vod",
+                            "tv.twitch.android.app",
+                            "org.mozilla.firefox",
+                            "com.android.chrome",
+                            "com.microsoft.emmx",
+                            "com.opera.browser",
+                            "com.UCMobile.intl",
+                            "com.jio.web",
+                            "com.sec.android.app.sbrowser",
+                            "com.epic.browser",
+                            "com.vivaldi.browser",
+                            "com.opera.mini.native",
+                            "com.brave.browser"
+                        ]
+                    },
+                    "pedometer_config": {
+                        "frame_anim_execution_cycle": {
+                            "Mediatek": 5050,
+                            "QTI": 1920
+                        }
+                    },
+                    "screen_time_config": {
+                        "app_filter_list": [
+                            "com.nothing.systemui",
+                            "com.nothing.systemuitool",
+                            "com.nothing.hearthstone",
+                            "com.android.systemui",
+                            "com.nothing.wallpaper",
+                            "com.nothing.proxy",
+                            "android",
+                            "com.android.nfc",
+                            "com.android.setupwizard.overlay",
+                            "com.google.android.gms",
+                            "com.google.android.packageinstaller",
+                            "com.google.android.setupwizard",
+                            "com.google.android.apps.wellbeing",
+                            "com.android.intentresolver",
+                            "com.google.android.as",
+                            "com.google.android.tts",
+                            "com.android.server.telecom",
+                            "com.google.android.cellbroadcastreceiver",
+                            "com.google.android.documentsui",
+                            "com.nothing.ntscreenshot",
+                            "com.google.android.inputmethod.latin",
+                            "com.google.android.providers.media.module",
+                            "com.nothing.launcher",
+                            "com.google.android.apps.safetyhub",
+                            "com.nothing.OfflineOTAUpgradeApp"
+                        ]
+                    },
+                    "third_party_intent_config": {
+                        "base_uri": "https://chat.openai.com/",
+                        "base_uri_array": [
+                            "https://chat.openai.com/",
+                            "https://chat.openai.com/",
+                            "https://chat.openai.com/"
+                        ],
+                        "class_name": "com.openai.chatgpt.MainActivity",
+                        "class_name_array": [
+                            "com.openai.chatgpt.MainActivity",
+                            "com.openai.chatgpt.MainActivity",
+                            "com.openai.chatgpt.MainActivity"
+                        ],
+                        "package_name": "com.openai.chatgpt",
+                        "package_name_array": [
+                            "com.openai.chatgpt",
+                            "com.openai.chatgpt",
+                            "com.openai.chatgpt"
+                        ],
+                        "query_array": [
+                            {
+                                "key": "?q=",
+                                "value": null
+                            },
+                            {
+                                "key": "?mode=",
+                                "value": [
+                                    "text",
+                                    "voice",
+                                    "camera"
+                                ]
+                            },
+                            {
+                                "key": "?model=",
+                                "value": null
+                            }
+                        ],
+                        "version_code": 171
+                    },
+                    "version": 1000073
+                }
+            ],
+            "projectname": "NT_widget_config"
+        },
+        {
+            "content": [
+                {
+                    "internal_record_config": {
+                        "support_fp_prefix": [
+                            "Nothing/PongIND/Pong",
+                            "Nothing/PacmanIND/Pacman"
+                        ],
+                        "support_mcc_code": [
+                            "460",
+                            "404",
+                            "405",
+                            "406"
+                        ]
+                    },
+                    "version": 1000006
+                }
+            ],
+            "projectname": "sound_recorder_config"
+        },
+        {
+            "content": [
+                {
+                    "AccountFeatureContent": [
+                        "com.user.center.featuremanager"
+                    ],
+                    "AvatarGrantContent": [
+                        "com.nothing.cardservice",
+                        "com.android.settings",
+                        "com.nothing.ntessentialspace",
+                        "com.nothing.hearthstone",
+                        "com.nothing.test"
+                    ],
+                    "version": 100000004
+                }
+            ],
+            "projectname": "account_user_center_configs"
+        }
+    ]
+}
