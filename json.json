@@ -13,6 +13,45 @@
         },
         {
             "content": [
+                2,
+                {
+                    "apps_config": [
+                        {
+                            "app_list": "com.pubg.imobile-com.tencent.ig",
+                            "level_configs": [
+                                {
+                                    "level": 7,
+                                    "unit_configs": {
+                                        "brightness": 10,
+                                        "fps": 60
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                2,
+                {
+                    "apps_config": [
+                        {
+                            "app_list": "com.pubg.imobile-com.tencent.ig",
+                            "level_configs": [
+                                {
+                                    "level": 7,
+                                    "unit_configs": {
+                                        "brightness": 10,
+                                        "fps": 60
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "projectname": "advanced_thermal_mitigation"
+        },
+        {
+            "content": [
                 {
                     "battery_health_charge_cdp": 9000000,
                     "battery_restrict_list": "com.nothing.test,com.nothing.test2,com.nothing.test3,com.apkpure.aegon",
